@@ -1,10 +1,11 @@
+import HeroSection from "../components/section/HeroSection"
 
 function Home() {
-  return (
-    <div> <h1 className="text-3xl font-bold underline">
-    Hello world!
-  </h1></div>
-  )
+    return (
+        <div>
+            <HeroSection />
+        </div>
+    )
 }
 
 export default Home
