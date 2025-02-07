@@ -9,16 +9,16 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-black overflow-hidden text-white py-14 px-5 md:px-10 rounded-t-[70px] text-center">
+    <footer className="bg-black rounded-tl-4xl rounded-tr-4xl text-white py-14 px-5 md:px-10 text-center">
       <div className="relative mb-20">
         <h2 className="text-3xl md:text-[87px] font-normal">
           Pssst... We&#39;re waiting for you!
         </h2>
       </div>
 
-      <div className="grid grid-cols-3 items-center mt-6">
+      <div className="grid grid-cols-12 items-center mt-6">
         {/* Email Links */}
-        <div className="grid items-center">
+        <div className="col-span-12 md:col-span-4 items-center">
           <div className="flex items-center justify-center gap-7">
             <a
               href="mailto:contact@flashquad.com"
@@ -39,7 +39,7 @@ const Footer = () => {
         </div>
 
         {/* Social Media Icons */}
-        <div className="w-full flex justify-center items-center">
+        <div className="col-span-12 md:col-span-4 py-5 md:py-0 w-full flex justify-center items-center">
           <ul className="flex gap-5">
             {socials.map((social, index) => (
               <li key={index} className="relative icons-wrap p-3 rounded-full bg-gray-800">
@@ -53,7 +53,8 @@ const Footer = () => {
         </div>
 
         {/* Copyright */}
-        <div className="flex items-center gap-8 justify-center text-[#f3f4f699] text-sm">
+      <div className="col-span-12 md:col-span-4">
+  <div className="flex items-center gap-8 justify-center text-[#f3f4f699] text-sm">
           <a href="#" className="hover:text-[#34c404] text-[#f3f4f699]">
             Terms & Conditions
           </a>
@@ -61,6 +62,7 @@ const Footer = () => {
             Privacy Policy
           </a>
         </div>
+</div>
       </div>
     </footer>
   );
