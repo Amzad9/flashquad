@@ -10,15 +10,21 @@
   --font-urban: "Urbanist", serif;
 }
 
-/* * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-} */
+@media (prefers-color-scheme: dark) {
+  :root {
+    color: #213547;
+    background-color: #000000;
+  }
+
+  a:hover {
+    color: #747bff;
+  }
+}
 
 body {
   font-family: "Urbanist", serif;
   font-size: 14px;
+  font-optical-sizing: auto;
   font-weight: 400;
   line-height: 20px;
 }
