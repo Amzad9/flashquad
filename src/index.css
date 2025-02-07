@@ -1,14 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
 
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    color: #213547;
-    background-color: #000000;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+:root {
+  --black: #080808;
+  --black-text: #1a1a1a;
+  --white: #ffffff;
+  --primary: #34c404;
+  --font-urban: "Urbanist", serif;
+}
+
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} */
+
+body {
+  font-family: "Urbanist", serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
 }
