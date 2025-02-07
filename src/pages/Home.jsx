@@ -1,10 +1,10 @@
 import Community from "../components/section/community/Community";
 import Discover from "../components/section/Discover";
 import Footer from "../components/section/footer/Footer";
-import HeroSection from "../components/section/HeroSection";
 import MeetPeople from "../components/section/MeetPeople";
 import OurValues from "../components/section/OurValues";
 import Passions from "../components/section/Passions";
+import HeroSection from "../components/section/HeroSection";
 
 function Home() {
   return (
