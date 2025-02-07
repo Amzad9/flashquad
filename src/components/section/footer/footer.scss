@@ -1,0 +1,52 @@
+.icons-wrap {
+    border: 2px solid transparent;
+    &:hover {
+        border: 2px solid var(--primary);
+        .github,
+        .instagram,
+        .twitter,
+        .linkedin,
+        .codepen {
+            background-color: var(--primary);
+        }
+    }
+    .github,
+    .instagram,
+    .twitter,
+    .linkedin,
+    .codepen {
+        display: block;
+        cursor: pointer;
+        width: 24px;
+        height: 24px;
+        -webkit-mask-size: cover;
+        mask-size: cover;
+        background-color: var(--white);
+        transition: background-color 0.3s ease-in-out;
+    }
+
+    .github {
+        -webkit-mask-image: url("../../../assets/social-media/github.svg");
+        mask-image: url("../../../assets/social-media/github.svg");
+    }
+
+    .instagram {
+        -webkit-mask-image: url("../../../assets/social-media/instagram.svg");
+        mask-image: url("../../../assets/social-media/instagram.svg");
+    }
+
+    .twitter {
+        -webkit-mask-image: url("../../../assets/social-media/twitter.svg");
+        mask-image: url("../../../assets/social-media/twitter.svg");
+    }
+
+    .linkedin {
+        -webkit-mask-image: url("../../../assets/social-media/linkedin.svg");
+        mask-image: url("../../../assets/social-media/linkedin.svg");
+    }
+
+    .codepen {
+        -webkit-mask-image: url("../../../assets/social-media/codepen.svg");
+        mask-image: url("../../../assets/social-media/codepen.svg");
+    }
+}
