@@ -5,8 +5,8 @@ function Discover() {
             <div className="md:container mx-auto">
                 <div className="flex justify-center items-center">
                     <div className="w-[70%] text-center">
-<h2 className="text-6xl text-black "><button className="bg-red-600 text-white p-5 rounded-4xl text-4xl">👋Login</button> & C🫡nnect</h2>
-                        <h2 className="text-6xl text-black">Discover Your People, Explore Your Passions, and Make Every Moment an Adventure🍑</h2>
+<h2 className="text-4xl md:text-6xl text-black "><button className="bg-red-600 text-white p-3 md:p-5 rounded-4xl text-2xl md:text-4xl">👋Login</button> & C🫡nnect</h2>
+                        <h2 className="text-4xl md:text-6xl text-black">Discover Your People, Explore Your Passions, and Make Every Moment an Adventure🍑</h2>
                     </div>
                 </div>
             </div>

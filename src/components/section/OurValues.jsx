@@ -2,7 +2,7 @@ import FlipCard from "../Card";
 
 function OurValues() {
   return (
-    <section className="bg-dark h-screen bg-dark pt-20">
+    <section className="bg-dark h-auto md:h-screen bg-dark pt-20">
       <div className="md:container mx-auto">
         <div className="text-center">
           <p className="text-xl">Making Social Media Truly Social</p>

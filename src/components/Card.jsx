@@ -15,7 +15,7 @@ export default function FlipCard({ rotateByDefault }) {
         transition={{ duration: 0.5 }}
         onHoverStart={() => setIsFlipped(true)}
         onHoverEnd={() => setIsFlipped(false)}
-        style={{ transformStyle: "preserve-3d" }} // Ensure 3D transformation
+        style={{ transformStyle: "preserve-3d" }}
       >
         {/* Front Side */}
         <div
@@ -29,11 +29,11 @@ export default function FlipCard({ rotateByDefault }) {
         <div
           className="absolute w-full h-full flex items-center justify-center bg-gray-800 text-white text-xl font-bold rounded-lg border-2 border-e-amber-400"
           style={{
-            transform: "rotateY(180deg)", // Rotate the back side by 180 degrees
-            backfaceVisibility: "hidden" // Hide the backface when flipped
+            transform: "rotateY(180deg)",
+            backfaceVisibility: "hidden"
           }}
         >
-          {/* Content for Back Side */}
+
           <div className="text-start p-4">
             <h2 className="text-2xl font-bold mb-2 text-amber-700">Humanity:</h2>
             <h4 className="mb-20">Real people, real connections</h4>
@@ -48,5 +48,5 @@ export default function FlipCard({ rotateByDefault }) {
 }
 
 FlipCard.propTypes = {
-  rotateByDefault: PropTypes.number.isRequired, // Ensure correct type for the prop
+  rotateByDefault: PropTypes.number.isRequired,
 };
