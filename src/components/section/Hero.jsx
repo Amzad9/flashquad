@@ -1,6 +1,6 @@
 
 import HeroImage from '../../assets/hero-phone.png'
-function HeroSection() {
+function Hero() {
     return (
         <header className='md:pt-20 pt-35 overflow-hidden h-screen relative'>
             <div className="h-screen relative flex flex-col md:flex-row md:items-center justify-center">
@@ -29,4 +29,4 @@ function HeroSection() {
     )
 }
 
-export default HeroSection
+export default Hero

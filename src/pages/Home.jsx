@@ -4,12 +4,12 @@ import Footer from "../components/section/footer/Footer";
 import MeetPeople from "../components/section/MeetPeople";
 import OurValues from "../components/section/OurValues";
 import Passions from "../components/section/Passions";
-import HeroSection from "../components/section/HeroSection";
+import Hero from "../components/section/Hero";
 
 function Home() {
   return (
     <div>
-      <HeroSection />
+      <Hero />
       <Discover />
       <OurValues />
       <Passions />
